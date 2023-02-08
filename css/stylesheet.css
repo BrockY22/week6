@@ -12,7 +12,7 @@ h2 + p{
     border-bottom:1px solid grey;
 }
 
-li a {
+li a:link {
     color: green
 }
 
@@ -26,9 +26,16 @@ li a:hover {
 
 li:first-child::first-letter {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 120%;
 }
 
 a[title="BCIT homepage"] {
     background-color: yellow;
+}
+
+img {
+    float:left
+}
+.below {
+    clear:left
 }
